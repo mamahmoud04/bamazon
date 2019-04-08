@@ -11,14 +11,14 @@ CREATE TABLE products (
   PRIMARY KEY(id)
 );
 -- Insert a set of records. 
-INSERT INTO products (product_name, department_name) VALUES ("apple", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("banana", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("strawberry", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("cherry", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("raspberry", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("blueberry", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("peaches", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("grapes", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("pears", "fruits");
-INSERT INTO products (product_name, department_name) VALUES ("grapefruit", "fruits");
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("apple", "fruits", 10, 35);
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("banana", "fruits",12, 40);
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("strawberry", "fruits", 13, 45);
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("cherry", "fruits", 14, 50);
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("raspberry", "fruits",15, 55);
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("blueberry", "fruits",16, 60);
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("peaches", "fruits", 17, 65);
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("grapes", "fruits", 18, 70 );
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("pears", "fruits", 19, 75);
+INSERT INTO products (product_name, department_name, price,stock_quantity) VALUES ("grapefruit", "fruits", 20,80);
 
